@@ -53,6 +53,32 @@ public class mainSteps {
 		
 	}
 	
+	@When("User Signup into application")
+	public void user_signup_into_application1(List<String> data) {
+		
+		System.out.println(data.get(0));
+		System.out.println(data.get(1));
+		System.out.println(data.get(2));
+		System.out.println(data.get(3));
+		//Changes to file for JIT demo purpose ShiharaUS
+		System.out.println(data.get(0));
+		System.out.println(data.get(1));
+		System.out.println(data.get(2));
+		System.out.println(data.get(3));
+		
+		//aaabb by ShiharaW
+		//aabbi123 ShiharaW team mb1
+		//QQQwaesr ShiharaW team mb2
+		
+		//Changes to file for JIT demo purpose ShiharaW
+		System.out.println(data.get(0));
+		System.out.println(data.get(1));
+		System.out.println(data.get(2));
+		System.out.println(data.get(3));
+		
+		
+	}
+	
 
 	  //This use without user and password
 	

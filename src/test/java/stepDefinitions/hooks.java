@@ -24,6 +24,16 @@ public class hooks {
 		System.out.println("*************************************");
 		System.out.println("Setup enries in the Mortgage database");
 	}
+	
+	@Before("@Mortgage")
+	public void mortgageSetup1() {
+		System.out.println("*************************************");
+		System.out.println("Setup enries in the Mortgage database1");
+		
+		//Changes to file for JIT demo purpose ShiharaW
+		System.out.println("*************************************");
+		System.out.println("Setup enries in the Mortgage database1");
+	}
 
 }
 
