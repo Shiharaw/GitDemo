@@ -33,6 +33,10 @@ public class hooks {
 		//Changes to file for JIT demo purpose ShiharaW
 		System.out.println("*************************************");
 		System.out.println("Setup enries in the Mortgage database1");
+		
+		//Changes to file for JIT demo by ShiharaUS
+		System.out.println("*************************************");
+		System.out.println("Setup enries in the Mortgage database1");
 	}
 
 }
