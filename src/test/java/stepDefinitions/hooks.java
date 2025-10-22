@@ -19,6 +19,10 @@ public class hooks {
 	public void mortgageSetup() {
 		System.out.println("*************************************");
 		System.out.println("Setup enries in the Mortgage database");
+		
+		//Changes to file for JIT demo purpose ShiharaW
+		System.out.println("*************************************");
+		System.out.println("Setup enries in the Mortgage database");
 	}
 
 }

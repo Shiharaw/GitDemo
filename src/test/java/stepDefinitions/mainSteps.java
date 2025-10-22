@@ -10,6 +10,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
 
 public class mainSteps {
 	@Given("User is on Netbanking landing page")
@@ -38,6 +39,17 @@ public class mainSteps {
 		System.out.println(data.get(1));
 		System.out.println(data.get(2));
 		System.out.println(data.get(3));
+		
+		//aaabb by ShiharaW
+		//aabbi123 ShiharaW team mb1
+		//QQQwaesr ShiharaW team mb2
+		
+		//Changes to file for JIT demo purpose ShiharaW
+		System.out.println(data.get(0));
+		System.out.println(data.get(1));
+		System.out.println(data.get(2));
+		System.out.println(data.get(3));
+		
 		
 	}
 	
